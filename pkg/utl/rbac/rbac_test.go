@@ -3,10 +3,10 @@ package rbac_test
 import (
 	"testing"
 
-	"github.com/ribice/gorsk/pkg/utl/model"
+	"github.com/yalunga/onewod-api/pkg/utl/model"
 
-	"github.com/ribice/gorsk/pkg/utl/mock"
-	"github.com/ribice/gorsk/pkg/utl/rbac"
+	"github.com/yalunga/onewod-api/pkg/utl/mock"
+	"github.com/yalunga/onewod-api/pkg/utl/rbac"
 
 	"github.com/labstack/echo"
 

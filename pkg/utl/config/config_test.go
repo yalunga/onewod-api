@@ -3,7 +3,7 @@ package config_test
 import (
 	"testing"
 
-	"github.com/ribice/gorsk/pkg/utl/config"
+	"github.com/yalunga/onewod-api/pkg/utl/config"
 	"github.com/stretchr/testify/assert"
 )
 

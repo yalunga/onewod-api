@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/ribice/gorsk/pkg/api/user"
+	"github.com/yalunga/onewod-api/pkg/api/user"
 
-	gorsk "github.com/ribice/gorsk/pkg/utl/model"
+	gorsk "github.com/yalunga/onewod-api/pkg/utl/model"
 
 	"github.com/labstack/echo"
 )

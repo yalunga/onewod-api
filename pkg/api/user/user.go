@@ -3,8 +3,8 @@ package user
 
 import (
 	"github.com/labstack/echo"
-	gorsk "github.com/ribice/gorsk/pkg/utl/model"
-	"github.com/ribice/gorsk/pkg/utl/query"
+	gorsk "github.com/yalunga/onewod-api/pkg/utl/model"
+	"github.com/yalunga/onewod-api/pkg/utl/query"
 )
 
 // Create creates a new user account

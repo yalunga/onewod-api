@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/labstack/echo"
-	"github.com/ribice/gorsk/pkg/api/password"
-	"github.com/ribice/gorsk/pkg/utl/model"
+	"github.com/yalunga/onewod-api/pkg/api/password"
+	"github.com/yalunga/onewod-api/pkg/utl/model"
 )
 
 // New creates new password logging service

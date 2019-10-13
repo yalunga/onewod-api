@@ -3,8 +3,8 @@ package gorsk_test
 import (
 	"testing"
 
-	"github.com/ribice/gorsk/pkg/utl/mock"
-	gorsk "github.com/ribice/gorsk/pkg/utl/model"
+	"github.com/yalunga/onewod-api/pkg/utl/mock"
+	gorsk "github.com/yalunga/onewod-api/pkg/utl/model"
 )
 
 func TestBeforeInsert(t *testing.T) {

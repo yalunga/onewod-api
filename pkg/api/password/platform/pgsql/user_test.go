@@ -3,10 +3,10 @@ package pgsql_test
 import (
 	"testing"
 
-	"github.com/ribice/gorsk/pkg/utl/model"
+	"github.com/yalunga/onewod-api/pkg/utl/model"
 
-	"github.com/ribice/gorsk/pkg/api/password/platform/pgsql"
-	"github.com/ribice/gorsk/pkg/utl/mock"
+	"github.com/yalunga/onewod-api/pkg/api/password/platform/pgsql"
+	"github.com/yalunga/onewod-api/pkg/utl/mock"
 	"github.com/stretchr/testify/assert"
 )
 

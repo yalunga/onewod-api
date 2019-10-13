@@ -3,11 +3,11 @@ package password_test
 import (
 	"testing"
 
-	"github.com/ribice/gorsk/pkg/api/password"
+	"github.com/yalunga/onewod-api/pkg/api/password"
 
-	"github.com/ribice/gorsk/pkg/utl/mock"
-	"github.com/ribice/gorsk/pkg/utl/mock/mockdb"
-	"github.com/ribice/gorsk/pkg/utl/model"
+	"github.com/yalunga/onewod-api/pkg/utl/mock"
+	"github.com/yalunga/onewod-api/pkg/utl/mock/mockdb"
+	"github.com/yalunga/onewod-api/pkg/utl/model"
 
 	"github.com/go-pg/pg/orm"
 	"github.com/labstack/echo"

@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-playground/validator"
 	"github.com/labstack/echo"
-	"github.com/ribice/gorsk/pkg/utl/server"
+	"github.com/yalunga/onewod-api/pkg/utl/server"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -34,24 +34,24 @@ package api
 import (
 	"crypto/sha1"
 
-	"github.com/ribice/gorsk/pkg/utl/zlog"
+	"github.com/yalunga/onewod-api/pkg/utl/zlog"
 
-	"github.com/ribice/gorsk/pkg/api/auth"
-	al "github.com/ribice/gorsk/pkg/api/auth/logging"
-	at "github.com/ribice/gorsk/pkg/api/auth/transport"
-	"github.com/ribice/gorsk/pkg/api/password"
-	pl "github.com/ribice/gorsk/pkg/api/password/logging"
-	pt "github.com/ribice/gorsk/pkg/api/password/transport"
-	"github.com/ribice/gorsk/pkg/api/user"
-	ul "github.com/ribice/gorsk/pkg/api/user/logging"
-	ut "github.com/ribice/gorsk/pkg/api/user/transport"
+	"github.com/yalunga/onewod-api/pkg/api/auth"
+	al "github.com/yalunga/onewod-api/pkg/api/auth/logging"
+	at "github.com/yalunga/onewod-api/pkg/api/auth/transport"
+	"github.com/yalunga/onewod-api/pkg/api/password"
+	pl "github.com/yalunga/onewod-api/pkg/api/password/logging"
+	pt "github.com/yalunga/onewod-api/pkg/api/password/transport"
+	"github.com/yalunga/onewod-api/pkg/api/user"
+	ul "github.com/yalunga/onewod-api/pkg/api/user/logging"
+	ut "github.com/yalunga/onewod-api/pkg/api/user/transport"
 
-	"github.com/ribice/gorsk/pkg/utl/config"
-	"github.com/ribice/gorsk/pkg/utl/middleware/jwt"
-	"github.com/ribice/gorsk/pkg/utl/postgres"
-	"github.com/ribice/gorsk/pkg/utl/rbac"
-	"github.com/ribice/gorsk/pkg/utl/secure"
-	"github.com/ribice/gorsk/pkg/utl/server"
+	"github.com/yalunga/onewod-api/pkg/utl/config"
+	"github.com/yalunga/onewod-api/pkg/utl/middleware/jwt"
+	"github.com/yalunga/onewod-api/pkg/utl/postgres"
+	"github.com/yalunga/onewod-api/pkg/utl/rbac"
+	"github.com/yalunga/onewod-api/pkg/utl/secure"
+	"github.com/yalunga/onewod-api/pkg/utl/server"
 )
 
 // Start starts the API service

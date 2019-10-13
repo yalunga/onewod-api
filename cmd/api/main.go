@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 
-	"github.com/ribice/gorsk/pkg/api"
+	"github.com/yalunga/onewod-api/pkg/api"
 
-	"github.com/ribice/gorsk/pkg/utl/config"
+	"github.com/yalunga/onewod-api/pkg/utl/config"
 )
 
 func main() {
